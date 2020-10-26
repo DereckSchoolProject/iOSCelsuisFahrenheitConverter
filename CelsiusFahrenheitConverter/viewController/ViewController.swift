@@ -9,6 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
     @IBOutlet weak var coucouLabel: UILabel!
+ 
+    @IBAction func goPressed(_ sender: Any) {
+        coucouLabel.isHidden = !coucouLabel.isHidden
+    }
 }
 
